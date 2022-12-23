@@ -1,4 +1,132 @@
- h1 {
-            text-align: center;
-            color: rgb(4, 238, 255);
-        }
+body {
+  font-family: sans-serif;
+  max-width: 70%;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 10px;
+  max-width: 60%;
+  
+}
+.card{
+  border: 1px solid #04d3f3;
+  
+}
+
+.form-control:hover {
+  border-color: #04d3f3;
+  transition: #04d3f3; 
+  }
+
+hr {
+  color: #04d3f3;
+}
+
+/*.d-flex {
+  position: fixed;
+  background: white;
+}*/
+
+h1 {
+  font-size: 46px;
+  margin-top: 30px;
+  color: #04d3f3;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #04d3f3;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #04d3f3;
+}
+
+h4 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  line-height: 48px;
+   color: #04d3f3;
+}
+
+h5 {
+  font-size: 18px;
+  text-align: center;
+}
+
+span {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+span.images {
+  font-size: 62px;
+}
+
+div.weather {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div.temperature {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.weather .humidity {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.weather .wind {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.weather .description {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.emojis {
+  font-size: 36px;
+}
+
+.degree-min.degree-max {
+  font-weight: 600;
+}
+
+.map {
+  display: block;
+  margin: 20px auto;
+  width: 95%;
+  border-radius: 6px;
+}
+
+.temperature {
+  color: #04d3f3;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.degrees {
+  position: relative;
+  top: -34px;
+}
+
+a {
+  color: #04d3f3;
+  text-decoration: none;
+}
